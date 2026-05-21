@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python pipeline.py)"
+      "Bash(python pipeline.py)",
+      "Bash(python etl.py)"
     ]
   }
 }

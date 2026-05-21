@@ -6,11 +6,13 @@ authors = [
     {name = "Guilherme Moreno",email = "guilhermemoreno200@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<4.0"
 dependencies = [
     "pandera (>=0.31.1,<0.32.0)",
     "pandas (>=3.0.3,<4.0.0)",
-    "pyarrow (>=24.0.0,<25.0.0)"
+    "pyarrow (>=24.0.0,<25.0.0)",
+    "loguru (>=0.7.3,<0.8.0)",
+    "sentry-sdk (>=2.60.0,<3.0.0)"
 ]
 
 
